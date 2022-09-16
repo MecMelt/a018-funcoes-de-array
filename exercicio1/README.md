@@ -9,3 +9,9 @@ Crie duas funcões que recebem como parâmetro um objeto.
 Chame a funcão 3, passando como argumentos o objeto passado no arquivo `script.js`, e a funcão 1.
 Repita o processo para a funcão 2
 
+const textoCorrido = (valores) => {
+    const array = [valores.nome, valores.profissao, valores.username, valores.senha]
+    const novoArray = array.join('')
+    return novoArray
+}
+console.log(textoCorrido(objeto))
